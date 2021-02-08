@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btn=(Button)findViewById(R.id.summit);
         iv=(ImageView)findViewById(R.id.image_view);
         //hello
-
+        //치쿠비
         if(!Python.isStarted())
             Python.start(new AndroidPlatform(this));
 

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         //binding
         btn=(Button)findViewById(R.id.summit);
         iv=(ImageView)findViewById(R.id.image_view);
-
+        //hello
 
         if(!Python.isStarted())
             Python.start(new AndroidPlatform(this));
